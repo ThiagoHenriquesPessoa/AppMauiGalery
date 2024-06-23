@@ -1,4 +1,6 @@
-﻿namespace AppMauiGalery
+﻿using AppMauiGalery.Views;
+
+namespace AppMauiGalery
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new AppFlyout();
         }
     }
 }
