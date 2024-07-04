@@ -16,11 +16,8 @@
 
         <Label Text="Crédito" />
 
-        <Label Text="Layout" />
-
-        <Label Text="StackLayout" />
-
-        <Label Text="Descrição" />
-
+        <VerticalStackLayout x:Name="MenuContainerr">
+            
+        </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
